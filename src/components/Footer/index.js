@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaFolder, FaPhone } from "react-icons/fa";
-import { AiFillMail, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 import {
   FooterContainer,
   FooterWrap,
