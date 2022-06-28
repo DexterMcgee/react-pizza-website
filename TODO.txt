@@ -1,6 +1,0 @@
-// remove social icons and replace with 
->github icon (link to github)
->portfolio icon (link to portfolio)
->word icon (link to resume)
-
-//replace word 'Pizza' with my name

@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaFolder, FaPhone } from "react-icons/fa";
+import { AiFillMail, AiOutlineMail } from "react-icons/ai";
 import {
   FooterContainer,
   FooterWrap,
@@ -16,39 +17,39 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Pizza</SocialLogo>
+            <SocialLogo to="/">Victor Oloyede</SocialLogo>
             <SocialIcons>
               <SocialIconLink
                 href="/"
                 target="_blank"
-                aria-label="Facebook"
+                aria-label="Folder"
                 rel="noopener noreferrer"
               >
-                <FaFacebook />
+                <FaFolder />
               </SocialIconLink>
               <SocialIconLink
-                href="/"
+                href="https://github.com/DexterMcgee"
                 target="_blank"
-                aria-label="Instagram"
+                aria-label="Github"
                 rel="noopener noreferrer"
               >
-                <FaInstagram />
+                <FaGithub />
               </SocialIconLink>
               <SocialIconLink
-                href="/"
+                href="mailto:victorzemail@gmail.com"
                 target="_blank"
-                aria-label="Youtube"
+                aria-label="OutlineMail"
                 rel="noopener noreferrer"
               >
-                <FaYoutube />
+                <AiOutlineMail />
               </SocialIconLink>
               <SocialIconLink
-                href="/"
+                href="tel:469-734-1247"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="Phone"
                 rel="noopener noreferrer"
               >
-                <FaTwitter />
+                <FaPhone />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
