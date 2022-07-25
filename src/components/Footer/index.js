@@ -20,7 +20,7 @@ const Footer = () => {
             <SocialLogo to="/">Victor Oloyede</SocialLogo>
             <SocialIcons>
               <SocialIconLink
-                href="/"
+                href="https://personal-portfolio-psi-seven.vercel.app/"
                 target="_blank"
                 aria-label="Folder"
                 rel="noopener noreferrer"
